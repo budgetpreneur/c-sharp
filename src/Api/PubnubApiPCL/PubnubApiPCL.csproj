@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;netstandard1.3;netstandard1.4;netstandard1.1;netstandard2.0;net6.0</TargetFrameworks>
@@ -666,7 +666,7 @@
     <PackageReference Include="NETStandard.Library" Version="1.6.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
@@ -708,7 +708,7 @@
     <PackageReference Include="NETStandard.Library" Version="1.6.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
@@ -735,7 +735,7 @@
     <PackageReference Include="NETStandard.Library" Version="1.6.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
@@ -795,7 +795,7 @@
     <PackageReference Include="NETStandard.Library" Version="1.6.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
@@ -843,7 +843,7 @@
     <PackageReference Include="NETStandard.Library" Version="1.6.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
@@ -888,7 +888,7 @@
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
     <Reference Include="System.Runtime" />
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1">
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <PrivateAssets>None</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
